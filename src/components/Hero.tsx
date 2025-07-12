@@ -45,11 +45,12 @@ const Hero = () => {
               View My Work
             </button>
             <button className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8 py-3 rounded-lg font-semibold transition-colors duration-300">
-              <link
-                rel="stylesheet"
-                href="https://example.com/path/to/your/cv.pdf"
-              />
-              Download CV
+              <a
+                href="https://github.com/thuannd-dev/my-portfolio/blob/main/public/Me.pdf"
+                download
+              >
+                Download CV
+              </a>
             </button>
           </div>
 
