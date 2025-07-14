@@ -7,10 +7,10 @@ const Hero = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           {/* Profile Image */}
-          <div className="mb-8">
+          <div className="mb-8 select-none">
             <div className="w-48 h-48 mx-auto rounded-full bg-gradient-to-r from-blue-500 to-purple-600 p-1">
               <div className="w-full h-full rounded-full bg-gray-300 dark:bg-gray-700 flex items-center justify-center">
-                <svg
+                {/* <svg
                   className="w-20 h-20 text-gray-400"
                   fill="currentColor"
                   viewBox="0 0 20 20"
@@ -20,7 +20,12 @@ const Hero = () => {
                     d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
                     clipRule="evenodd"
                   />
-                </svg>
+                </svg> */}
+                <img
+                  src="/my-portfolio/z5639860075649_28c6c6e83bf6e531f28556fb3e9962e0.jpg"
+                  alt="profile"
+                  className="w-50 h-50 rounded-full object-cover"
+                />
               </div>
             </div>
           </div>
@@ -44,14 +49,20 @@ const Hero = () => {
             <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors duration-300">
               View My Work
             </button>
-            <button className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8 py-3 rounded-lg font-semibold transition-colors duration-300">
+            {/* <button className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8 py-3 rounded-lg font-semibold transition-colors duration-300">
               <a
                 href="https://github.com/thuannd-dev/my-portfolio/blob/main/public/Me.pdf"
                 download
               >
-                Download CV
+                View My CV
               </a>
-            </button>
+            </button> */}
+            <a
+              href="https://github.com/thuannd-dev/my-portfolio/blob/main/public/Me.pdf"
+              className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8 py-3 rounded-lg font-semibold transition-colors duration-300"
+            >
+              View My CV
+            </a>
           </div>
 
           {/* Social Links */}
@@ -73,7 +84,7 @@ const Hero = () => {
               </svg>
             </a>
             <a
-              href="#"
+              href="https://github.com/thuannd-dev"
               className="text-gray-400 hover:text-blue-600 transition-colors duration-300"
             >
               <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">

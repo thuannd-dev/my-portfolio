@@ -13,9 +13,9 @@ const About = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left side - Image */}
-          <div className="order-2 lg:order-1">
+          <div className="order-2 lg:order-1 select-none">
             <div className="w-full h-96 bg-gradient-to-br from-blue-100 to-purple-100 dark:from-gray-800 dark:to-gray-700 rounded-2xl flex items-center justify-center">
-              <svg
+              {/* <svg
                 className="w-32 h-32 text-gray-400"
                 fill="currentColor"
                 viewBox="0 0 20 20"
@@ -25,7 +25,12 @@ const About = () => {
                   d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
                   clipRule="evenodd"
                 />
-              </svg>
+              </svg> */}
+              <img
+                src="/my-portfolio/Teams.jpg"
+                alt="Teams"
+                className="w-full h-full object-cover rounded-2xl object-[25%_75%]"
+              />
             </div>
           </div>
 

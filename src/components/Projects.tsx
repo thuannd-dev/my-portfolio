@@ -17,7 +17,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
   return (
     <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-xl">
       {/* Project Image */}
-      <div className="h-48 bg-gray-200 dark:bg-gray-700 relative overflow-hidden">
+      <div className="h-48 bg-gray-200 dark:bg-gray-700 relative overflow-hidden select-none">
         <img
           src={project.imageUrl}
           alt={project.title}
@@ -94,7 +94,7 @@ export const Projects = () => {
         "Hangfire",
         "Serilog",
       ],
-      imageUrl: "/hello-image.svg",
+      imageUrl: "/my-portfolio/Hello.jpg",
       githubUrl: "https://github.com/thuannd-dev/study-hub",
       liveUrl: "https://github.com/thuannd-dev/study-hub",
       year: "2025",
@@ -113,7 +113,7 @@ export const Projects = () => {
         "Sharp",
         "Formidable",
       ],
-      imageUrl: "/hello-image.svg",
+      imageUrl: "/my-portfolio/Hello.jpg",
       githubUrl: "https://github.com/thuannd-dev/Shopping-Card",
       liveUrl: "https://github.com/thuannd-dev/Shopping-Card",
       year: "2024",
@@ -130,7 +130,7 @@ export const Projects = () => {
         "Data Structures",
         "Code Optimization",
       ],
-      imageUrl: "/hello-image.svg",
+      imageUrl: "/my-portfolio/Hello.jpg",
       githubUrl: "https://github.com/thuand-dev/codesignal-solutions",
       liveUrl: "https://your-codesignal-solutions.com",
       year: "2024",
@@ -147,7 +147,7 @@ export const Projects = () => {
         "DOM Manipulation",
         "Responsive Design",
       ],
-      imageUrl: "/hello-image.svg",
+      imageUrl: "/my-portfolio/Hello.jpg",
       githubUrl: "https://github.com/thuand-dev/shopi-pied",
       liveUrl: "https://your-shopi-pied.com",
       year: "2024",

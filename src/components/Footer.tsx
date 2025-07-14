@@ -37,7 +37,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a
-                href="#"
+                href="https://github.com/thuannd-dev"
                 className="text-gray-400 hover:text-white transition-colors duration-300"
               >
                 <svg
@@ -98,10 +98,10 @@ const Footer = () => {
                 <span className="text-gray-400">Web Development</span>
               </li>
               <li>
-                <span className="text-gray-400">UI/UX Design</span>
+                <span className="text-gray-400">Back-end Development</span>
               </li>
               <li>
-                <span className="text-gray-400">Mobile Apps</span>
+                <span className="text-gray-400">UI/UX Design</span>
               </li>
               <li>
                 <span className="text-gray-400">Consulting</span>
